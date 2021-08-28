@@ -1,0 +1,57 @@
+<!-- the html wrapper for p5.js sketch -->
+<!-- the main sketch is written is sketch.js  -->
+
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+
+
+  </head>
+  <body>
+    <img class="filter" src = "inriaMask2.png"
+    style="
+    {% comment %} display : none; {% endcomment %}
+    width : 1290px;
+    height: 730px;
+    left: -75px;
+    top: -35px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    z-index: 1000;
+    ">
+    <div class="blackBox1" style="
+    width : 70px;
+    height: 720px;
+    background-color: black;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    z-index: 9999;
+    ">  </div>
+    <div class="blackBox2"
+    style="
+    width : 1280px;
+    height: 80px;
+    background-color: black;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    z-index: 9999;
+    ">  </div>
+    <!-- <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"> -->
+    <!-- <span id="xy" style="z-index:100; position:fixed;"></span> -->
+
+    <script src="sketch.js"></script>
+
+
+</body></html>
